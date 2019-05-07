@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spbt-mybaties-jdbc:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spbt_mybaties_jdbc_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spbt-mybaties-jdbc/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spbt-mybaties-jdbc" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

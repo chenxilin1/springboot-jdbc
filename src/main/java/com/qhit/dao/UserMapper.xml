@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qhit.dao.UserMapper">
+    <select id="cha" parameterType="com.qhit.pojo.User" resultType="com.qhit.pojo.User">
+        select * from userinfo where name = #{name} and pwd = #{pwd}
+</select>
+</mapper>
